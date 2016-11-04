@@ -18,9 +18,7 @@ function draw() {
   background(127);
   strokeWeight(2);
 
-  //TEXT
-  text("Digital Art Crew");
-
+ 
   // Set the hue according to the slider
   stroke(colorSlider.value(), 255, 255);
   fill(colorSlider.value(), 255, 255, 127);
